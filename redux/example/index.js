@@ -1,3 +1,13 @@
+///// STEP 1: Copy folder and change to your name
+///// STEP 2: Create types and actions
+///// STEP 3: Design your initialState
+///// STEP 4: Design reducer
+///// STEP 6: Design saga
+///// STEP 7: Don't forget to add this reducer in ../persistedReducer
+///// STEP 8: Don't forget to add this saga in ../saga.js
+///// NOTE: Don't need to change HYDRATE
+///// NOTE: you can use this reducer name to select in state
+
 import { HYDRATE } from 'next-redux-wrapper';
 
 ///////// Service Name ////////

@@ -1,10 +1,12 @@
 
 import { all, call } from 'redux-saga/effects';
-import example from './example/saga';
+import exampleSaga from './example/saga';
+import pokemonSaga from './pokemon/saga'
 
 function* rootSaga () {
   yield all([
-    call(example)
+    call(exampleSaga),
+    call(pokemonSaga)
   ])
 }
 

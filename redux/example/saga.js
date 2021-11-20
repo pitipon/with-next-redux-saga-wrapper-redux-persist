@@ -1,6 +1,6 @@
 import { all, call, delay, put, take, takeLatest } from 'redux-saga/effects'
 const { types, actions: {failure, loadDataSuccess, tickClock} } = require('./index')
-
+console.log('types.LOAD_DATA', types.LOAD_DATA)
 
 function* runClockSaga() {
   yield take(types.START_CLOCK)

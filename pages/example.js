@@ -4,7 +4,7 @@ import { END } from 'redux-saga'
 import {wrapper} from '../redux/store'
 const { actions: {loadData, startClock, tickClock} } = require('../redux/example')
 import Page from '../components/page'
-
+import { name as exampleName } from '../redux/example'
 
 
 const Redux = () => {
@@ -23,8 +23,8 @@ export const getStaticProps = wrapper.getStaticProps((store) => async ({ req }) 
   // Code here
   store.dispatch(tickClock(false))
 
-  if (!store.getState().placeholderData) {
-    // console.log('dispatch placeholder')
+  if (!store.getState()[exampleName].placeholderData) {
+
     store.dispatch(loadData())
     store.dispatch(END)
   }

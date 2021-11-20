@@ -32,7 +32,8 @@ function counter() {
       </p>
 
       <h1>Another example</h1>
-      <Link href='/example'> Redux with sage and persist</Link>
+      <Link href='/example'> Redux with saga and persist</Link> <br/>
+      <Link href='/pokemon'> Redux with saga with gen-redux-type</Link>
 
     </>
   );
