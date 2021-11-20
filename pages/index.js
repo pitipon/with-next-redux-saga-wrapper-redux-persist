@@ -31,6 +31,9 @@ function counter() {
         and saved in the localstorage!
       </p>
 
+      <h1>Another example</h1>
+      <Link href='/example'> Redux with sage and persist</Link>
+
     </>
   );
 }

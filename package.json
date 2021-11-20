@@ -1,7 +1,7 @@
 {
-    "name": "Metamania",
+    "name": "with-next-redux-saga-wrapper-redux-persist",
     "version": "1.0.0",
-    "description": "Learn code for metaverse",
+    "description": "example of nextjs with redux saga and persist",
     "main": "index.js",
     "scripts": {
         "dev": "next dev",
@@ -9,7 +9,7 @@
         "export": "next export",
         "start": "next start"
     },
-    "author": "metamania",
+    "author": "metamania.co",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.24.0",

@@ -1,12 +1,4 @@
-# Template for Metamania
+# WITH-NEXT-REDUX-SAGA-WRAPPER-REDUX-PERSIST
 
-### Document
-- Look at /document folder
-
-### SCSS
-- Use vscode plugin (Live Sass Complier)  Very good!
-
-### Development
-- nvm use 14
-- npm i
-- npm run dev
+### Reference
+- ![with-next-redux-wrapper-redux-persist](https://github.com/fazlulkarimweb/with-next-redux-wrapper-redux-persist)
